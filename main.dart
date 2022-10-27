@@ -37,6 +37,8 @@ void main() {
   } else if (choosenAnswer=="d") {
 
   //dkdm
+  print (" hello") ;
+  
     
   }
 
