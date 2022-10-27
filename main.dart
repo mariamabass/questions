@@ -35,6 +35,8 @@ void main() {
   } else if (choosenAnswer=="c") {
     score = score +2;
   } else if (choosenAnswer=="d") {
+
+  //dkdm
     
   }
 
