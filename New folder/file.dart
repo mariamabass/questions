@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:svg';
 
 void main (){
     
@@ -17,22 +16,21 @@ void main (){
   } ;
   
   int max= -9999999999 ;
+  int min = 99999999 ;
+
   for(int i = 0 ;i< n ; i++){
        int m =  int.parse(stdin.readLineSync()!);
        if(m> max) {
         max =m;
        }
-
-       int min = 99999999 ;
-       for( int y =0 ;y > n ; y--){
-        int m = int.parse(stdin.readLineSync()!);
-        if(m<min) {
+       if(m<min) {
           min=m;
         }
-       }
   }
-
-  int i = 0; //n = 4
+  print(max);  
+  
+  print(min);  
+  /*int i = 0; //n = 4
   while(i< n){ // - - - -
      int m =  int.parse(stdin.readLineSync()!);
        if(m> max) {
@@ -40,10 +38,10 @@ void main (){
        }
 
     i++ ; //4
-  }
+  }*/
 
 
-  print(max);  
+
 
   
 
