@@ -16,4 +16,6 @@ if(m < mini){
     mini=m;
 }
 }
+print(max);
+print(mini);
 }
