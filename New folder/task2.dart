@@ -18,4 +18,26 @@ if(m < mini){
 }
 print(max);
 print(mini);
+
+
+
+List v =[];
+print ("please enter the length of the list");
+int? n2 = int. parse (stdin.readLineSync()!);
+
+print("enter any number do you want pleas");
+int? n3 = int.parse(stdin.readLineSync()!);
+ if (n3==n2){
+  print("exists");
+ } else if(n3!=n2){
+  print("not existe");
+ }
+
+
+
+ Map question ={"what colors do you prefer?":["black","white"]};
+ print("question");
+ 
+
+
 }
